@@ -21,6 +21,36 @@
 .nav-link:hover {
   color: #b97687;
 }
+.main-container {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1470043338005-56c7b76e0a34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjcm9uc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+}
+.title {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  color: white;
+  animation: side 2s ease-in-out;
+}
+.sub-title {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  color: white;
+  animation: side 2s ease-in-out;
+}
+@keyframes side {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+  to {
+    left: 400px;
+    opacity: 1;
+  }
+}
 .footer {
   width: 100%;
   position: absolute;

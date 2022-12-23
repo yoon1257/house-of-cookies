@@ -21,11 +21,36 @@
 .nav-link:hover {
   color: #b97687;
 }
-.footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+.image {
+  height: 500px;
 }
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  margin-top: 30px;
+}
+.zoom-in {
+  overflow: hidden;
+}
+.zoom-in:hover .card-img-top {
+  cursor: pointer;
+  transform: scale(1.4);
+  transition: transform 0.9s;
+}
+.card-img-top {
+  height: 300px;
+}
+.card-text {
+  text-align: center;
+}
+.sub-title {
+  color: #b97687;
+  text-align: center;
+  margin: 20px;
+}
+
 .footer-container {
   padding: 30px;
   margin-top: 50px;
